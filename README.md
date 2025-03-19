@@ -1,12 +1,25 @@
-# React + Vite
+# Currency Exchange 💱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and efficient currency exchange application built with React. This app allows users to convert currencies in real-time using live exchange rates.  
 
-Currently, two official plugins are available:
+🚀 **Live Demo:** [Currency Exchange](https://currency-exchange-cyan.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features ✨
+- 📌 Fetches live exchange rates from a public API.
+- 🔄 Supports multiple currency conversions.
+- ⚛️ Uses React hooks for state management.
+- 🔃 Custom hook for fetching JSON data.
+- 💡 Simple and responsive UI.
+- 🌍 Deployed on **Vercel** for seamless access.
 
-## Expanding the ESLint configuration
+## Tech Stack 🛠️
+- **React** - Frontend framework.
+- **Hooks** - `useState`, `useEffect`, and a custom hook for data fetching.
+- **Fetch API** - To get live currency data.
+- **CSS** - For styling.
+- **Vercel** - Deployment platform.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation & Setup 🚀
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/currency-exchange.git
